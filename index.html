@@ -1,0 +1,2874 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>DEYMI ED GLOW</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<!-- ENCABEZADO -->
+
+<header>
+
+    <div class="logo">
+        DEYMI ED GLOW
+    </div>
+
+    <p class="slogan">
+        Belleza que inspira, cuidado que se nota.
+    </p>
+
+    <nav>
+        <a href="#inicio">Inicio</a>
+        <a href="#catalogo">Catálogo</a>
+        <a href="#promociones">Promociones</a>
+        <a href="#pedido">Comprar</a>
+        <a href="#contacto">Contáctanos</a>
+    </nav>
+
+</header>
+
+
+<!-- INICIO -->
+
+<section id="inicio" class="inicio">
+
+    <div class="inicio-contenido">
+
+        <span class="etiqueta">
+            BELLEZA • CUIDADO • GLOW
+        </span>
+
+        <h1>
+            BIENVENIDAS A
+            <span>DEYMI ED GLOW</span>
+        </h1>
+
+        <p>
+            Tu tienda de maquillaje y cuidado facial,
+            donde encontrarás productos para resaltar
+            tu belleza y cuidar tu piel.
+        </p>
+
+        <div class="caracteristicas">
+
+            <div>
+                <strong>Maquillaje</strong>
+            </div>
+
+            <div>
+                <strong>Cuidado facial</strong>
+            </div>
+
+            <div>
+                <strong>Precios accesibles</strong>
+            </div>
+
+        </div>
+
+        <div class="botones-inicio">
+
+            <a href="#catalogo" class="boton principal">
+                CONOCE NUESTRA TIENDA
+            </a>
+
+            <a href="#promociones" class="boton">
+                VER PROMOCIONES
+            </a>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- CATÁLOGO -->
+
+<section id="catalogo" class="seccion">
+
+    <div class="titulo-seccion">
+
+        <span>DESCUBRE NUESTROS PRODUCTOS</span>
+
+        <h2>
+            NUESTRO CATÁLOGO
+        </h2>
+
+        <p>
+            Elige tus productos favoritos y selecciona
+            la cantidad que deseas comprar.
+        </p>
+
+    </div>
+
+
+    <!-- MAQUILLAJE -->
+
+    <h3 class="categoria">
+        MAQUILLAJE
+    </h3>
+
+
+    <div class="productos">
+
+
+        <!-- BASE -->
+
+        <div class="producto">
+
+            <div class="foto-producto">
+
+                <img
+                    src="WhatsApp Image 2026-09-29 at 15.59.10.jpeg"
+                    alt="Base de maquillaje"
+                >
+
+            </div>
+
+            <div class="info-producto">
+
+                <h3>Base</h3>
+
+                <span class="precio">
+                    Bs. 65
+                </span>
+
+                <p>
+                    Ayuda a unificar el tono y cubrir
+                    pequeñas imperfecciones.
+                </p>
+
+                <small>
+                    Para diferentes tipos de piel.
+                </small>
+
+                <label>
+                    Cantidad:
+                </label>
+
+                <input
+                    type="number"
+                    min="0"
+                    value="0"
+                    class="cantidad"
+                    data-nombre="Base"
+                    data-precio="65"
+                    onchange="calcularTotal()"
+                >
+
+            </div>
+
+        </div>
+
+                <!-- CORRECTOR -->
+
+        <div class="producto">
+
+            <div class="foto-producto">
+
+                <img
+                    src="WhatsApp Image 2026-09-29 at 17.53.25.jpeg"
+                    alt="corrector"
+                >
+
+            </div>
+
+            <div class="info-producto">
+
+                <h3>Corrector</h3>
+
+                <span class="precio">
+                    Bs. 70
+                </span>
+
+                <p>
+                    Correctos liquido.
+                </p>
+
+                <small>
+                    Cubre imperfecciones y ayuda a unificar el tono de la piel.
+                </small>
+
+                <label>
+                    Cantidad:
+                </label>
+
+                <input
+                    type="number"
+                    min="0"
+                    value="0"
+                    class="cantidad"
+                    data-nombre="Corrector"
+                    data-precio="70"
+                    onchange="calcularTotal()"
+                >
+
+            </div>
+
+        </div>
+
+        <!-- POLVO -->
+
+        <div class="producto">
+
+            <div class="foto-producto">
+
+                <img
+                    src="WhatsApp Image 2026-09-29 at 15.59.11.jpeg"
+                    alt="Polvo de maquillaje"
+                >
+
+            </div>
+
+            <div class="info-producto">
+
+                <h3>Polvo</h3>
+
+                <span class="precio">
+                    Bs. 55
+                </span>
+
+                <p>
+                    Ayuda a fijar el maquillaje
+                    y controlar el brillo.
+                </p>
+
+                <small>
+                    Para diferentes tipos de piel.
+                </small>
+
+                <label>
+                    Cantidad:
+                </label>
+
+                <input
+                    type="number"
+                    min="0"
+                    value="0"
+                    class="cantidad"
+                    data-nombre="Polvo"
+                    data-precio="55"
+                    onchange="calcularTotal()"
+                >
+
+            </div>
+
+        </div>
+    
+      <!-- RUBOR -->
+
+        <div class="producto">
+
+            <div class="foto-producto">
+
+                <img
+                    src="WhatsApp Image 2026-09-30 at 15.36.27.jpeg"
+                    alt="Rubor en liquido"
+                >
+
+            </div>
+
+            <div class="info-producto">
+
+                <h3>Rubor</h3>
+
+                <span class="precio">
+                    Bs. 45
+                </span>
+
+                <p>
+                    Rubor facil de difuminar que aporta un toque de color natural y luminoso al rostro
+                </p>
+
+                <small>
+                    Diferentes tonos rosa, durazno, satinado o brillante.
+                </small>
+
+                <label>
+                    Cantidad:
+                </label>
+
+                <input
+                    type="number"
+                    min="0"
+                    value="0"
+                    class="cantidad"
+                    data-nombre="Rubor"
+                    data-precio="45"
+                    onchange="calcularTotal()"
+                >
+
+            </div>
+
+        </div>
+      
+              <!-- CONTORNO -->
+
+        <div class="producto">
+
+            <div class="foto-producto">
+
+                <img
+                    src="WhatsApp Image 2026-09-30 at 15.36.28.jpeg"
+                    alt="Contorno en liquido"
+                >
+
+            </div>
+
+            <div class="info-producto">
+
+                <h3>Contorno</h3>
+
+                <span class="precio">
+                    Bs. 45
+                </span>
+
+                <p>
+                  Contorno facil de difuminar que ayuda a definir a dar dimension al rostro con un acabado natural
+                </p>
+
+                <small>
+                    Diferentes tonos claro, medio, oscuro, etc.
+                </small>
+
+                <label>
+                    Cantidad:
+                </label>
+
+                <input
+                    type="number"
+                    min="0"
+                    value="0"
+                    class="cantidad"
+                    data-nombre="Contorno"
+                    data-precio="45"
+                    onchange="calcularTotal()"
+                >
+
+            </div>
+
+        </div>
+         <!-- ILUMINADOR -->
+
+        <div class="producto">
+
+            <div class="foto-producto">
+
+                <img
+                    src="WhatsApp Image 2026-09-30 at 15.36.29.jpeg"
+                    alt="Iluminador en polvo"
+                >
+
+            </div>
+
+            <div class="info-producto">
+
+                <h3>Iluminador</h3>
+
+                <span class="precio">
+                    Bs. 38
+                </span>
+
+                <p>
+                    Iluminador de textura suave que aporta un brillo bonito al rostro y resalta las zonas altas de la cara.
+                </p>
+
+                <small>
+                    Diferentes tonos dorado, champagne, rosado perlado, ect.
+                </small>
+
+                <label>
+                    Cantidad:
+                </label>
+
+                <input
+                  type="number"
+                    min="0"
+                    value="0"
+                    class="cantidad"
+                    data-nombre="Iluminador"
+                    data-precio="38"
+                    onchange="calcularTotal()"
+                >
+
+            </div>
+
+        </div>
+
+         
+                <!-- DELINIADOR LIQUIDO-->
+
+        <div class="producto">
+
+            <div class="foto-producto">
+
+                <img
+                    src="WhatsApp Image 2026-09-30 at 15.36.30.jpeg"
+                    alt="Deliniador liquido"
+                >
+
+            </div>
+
+            <div class="info-producto">
+
+                <h3>Delineador liquido</h3>
+
+                <span class="precio">
+                    Bs. 99
+                </span>
+
+                <p>
+                    Delineador de color intenso y aplicacion precisa, ideal para crear desde lineas finas asta un delineado cat eye.
+                </p>
+
+                <small>
+                    Diferentes tonos negro, cafe azul, con un acabado mate y brillante.
+                </small>
+
+                <label>
+                    Cantidad:
+                </label>
+
+                <input
+                  type="number"
+                    min="0"
+                    value="0"
+                    class="cantidad"
+                    data-nombre="Delineador liquido"
+                    data-precio="99"
+                    onchange="calcularTotal()"
+                >
+
+            </div>
+
+        </div>
+
+<!-- DELINEADOR EN LAPIZ -->
+
+        <div class="producto">
+
+            <div class="foto-producto">
+
+                <img
+                    src="imagen delineador en lapiz.jpeg"
+                    alt="Delineador en lapiz"
+                >
+
+            </div>
+
+            <div class="info-producto">
+
+                <h3>Delineador en lapiz</h3>
+
+                <span class="precio">
+                    Bs. 95
+                </span>
+
+                <p>
+                    Lapiz suave y facil de aplicar, ideal para definir los ojos y crear diferentes estilos de delineador
+                </p>
+
+                <small>
+                    Diferentes colores negro, cafe, acul, verde,etc.
+                </small>
+
+                <label>
+                    Cantidad:
+                </label>
+
+                <input
+                    type="number"
+                    min="0"
+                    value="0"
+                    class="cantidad"
+                    data-nombre="Delineador en lapiz"
+                    data-precio="95"
+                    onchange="calcularTotal()"
+                >
+
+            </div>
+
+        </div>
+
+        <!-- LABIAL -->
+
+        <div class="producto">
+           
+            <div class="foto-producto">
+
+                <img
+                    src="WhatsApp Image 2026-10-05 at 15.21.12.jpeg"
+                    alt="Labial"
+                >
+
+            </div>
+
+            <div class="info-producto">
+
+                <h3>Labial</h3>
+
+                <span class="precio">
+                    Bs. 35
+                </span>
+
+                <p>
+                    Aporta color y estilo a los labios.
+                </p>
+
+                <small>
+                    Diferentes colores y acabados.
+                </small>
+
+                <label>
+                    Cantidad:
+                </label>
+
+                <input
+                    type="number"
+                    min="0"
+                    value="0"
+                    class="cantidad"
+                    data-nombre="Labial"
+                    data-precio="35"
+                    onchange="calcularTotal()"
+                >
+
+            </div>
+
+        </div>
+
+         <!-- LABIAL LIQUIDO -->
+
+        <div class="producto">
+
+            <div class="foto-producto">
+
+                <img
+                    src="WhatsApp Image 2026-09-29 at 17.36.05 (2).jpeg"
+                    alt="Larga durancion"
+                >
+
+            </div>
+
+            <div class="info-producto">
+
+                <h3>Labial liquido de alta duracion.</h3>
+
+                <span class="precio">
+                    Bs. 35
+                </span>
+
+                <p>
+                    Labial liquido de colores intesos y aplicacion uniforme, ideal para conseguir unos labios definidos y duranedos.
+                </p>
+
+                <small>
+                    Diferentes tonos rojo, rosa, vino, cage y tambien tienen un acabado mate, brillante o cremoso.
+                </small>
+
+                <label>
+                    Cantidad:
+                </label>
+
+                <input
+                    type="number"
+                    min="0"
+                    value="0"
+                    class="cantidad"
+                    data-nombre="Labial liquido"
+                    data-precio="35"
+                    onchange="calcularTotal()"
+                >
+
+            </div>
+
+        </div>
+
+        <!-- GLOSS -->
+
+        <div class="producto">
+
+            <div class="foto-producto">
+
+                <img
+                    src="imagen gloss.jpeg"
+                    alt="Lrga durancion"
+                >
+
+            </div>
+
+            <div class="info-producto">
+
+                <h3>Gloss de alta duracion.</h3>
+
+                <span class="precio">
+                    Bs. 35
+                </span>
+
+                <p>
+                    Gloss ligero que aporta un brillo intenso y un acabado bonito a los labios, perfecto para usar solo o sobre un labial,
+                </p>
+
+                <small>
+                    Diferentes tonos transparente, rosa, nude, con brillo, tambien tiene un acabado brillante o efecto espejo.
+                </small>
+
+                <label>
+                    Cantidad:
+                </label>
+
+                <input
+                    type="number"
+                    min="0"
+                    value="0"
+                    class="cantidad"
+                    data-nombre="Gloss"
+                    data-precio="35"
+                    onchange="calcularTotal()"
+                >
+
+            </div>
+
+        </div>
+
+        <!-- DELINEADOR DE LABIOS -->
+
+        <div class="producto">
+
+            <div class="foto-producto">
+
+                <img
+                    src="imagen  delineador de labios.jpeg"
+                    alt="Delineador de labios"
+                >
+
+            </div>
+
+
+         <div class="info-producto">
+
+                <h3>Delineador de labios</h3>
+
+                <span class="precio">
+                    Bs. 75
+                </span>
+
+                <p>
+                    Delineador sueve y preciso que ayuda a definir el contorno de los labios y combina perfectamente con diferentes tonos de labiales y gloss.
+                </p>
+
+                <small>
+                    Diferentes tonos nude, cafe, rosa, rojo, vino, etc.
+                </small>
+
+                <label>
+                    Cantidad:
+                </label>
+
+                <input
+                    type="number"
+                    min="0"
+                    value="0"
+                    class="cantidad"
+                    data-nombre="Delineador de labios"
+                    data-precio="75"
+                    onchange="calcularTotal()"
+                >
+
+            </div>
+
+        </div>
+
+         <!-- SOMBRAS -->
+
+        <div class="producto">
+
+            <div class="foto-producto">
+
+                <img
+                    src="WhatsApp Image 2026-09-29 at 15.59.11 (1).jpeg"
+                    alt="Paletas de sombras"
+                >
+
+            </div>
+
+
+         <div class="info-producto">
+
+                <h3>Sombras</h3>
+
+                <span class="precio">
+                    Bs. 75
+                </span>
+
+                <p>
+                    Para crear diferentes estilos de maquillaje.
+                </p>
+
+                <small>
+                    Diferentes tonos y estilos.
+                </small>
+
+                <label>
+                    Cantidad:
+                </label>
+
+                <input
+                    type="number"
+                    min="0"
+                    value="0"
+                    class="cantidad"
+                    data-nombre="Sombras"
+                    data-precio="75"
+                    onchange="calcularTotal()"
+                >
+
+            </div>
+
+        </div>
+
+    <!-- LAPIZ PARA CEJAS -->
+
+        <div class="producto">
+
+            <div class="foto-producto">
+
+                <img
+                    src="lapiz de cejas.jpeg"
+                    alt="Lapiz de cejas"
+                >
+
+            </div>
+
+
+         <div class="info-producto">
+
+                <h3>Lapiz de cejas</h3>
+
+                <span class="precio">
+                    Bs. 55
+                </span>
+
+                <p>
+                    Lapiz de facil aplicacion que permiten definer,rellenar y dar forma a las cejas con un acabado natural.
+                </p>
+
+                <small>
+                    Diferentes tonos cafe clara, cafe oscuro y negro, con una larga duracion.
+                </small>
+
+                <label>
+                    Cantidad:
+                </label>
+
+                <input
+                    type="number"
+                    min="0"
+                    value="0"
+                    class="cantidad"
+                    data-nombre="Lapiz para cejas"
+                    data-precio="55"
+                    onchange="calcularTotal()"
+                >
+
+            </div>
+
+        </div>
+       
+            <!-- SOMBRA PARA CEJAS -->
+
+        <div class="producto">
+
+            <div class="foto-producto">
+
+                <img
+                    src="sombras para cejas.jpeg"
+                    alt="Sombra para cejas"
+                >
+
+            </div>
+
+         <div class="info-producto">
+
+                <h3>Sombra para cejas</h3>
+
+                <span class="precio">
+                    Bs. 45
+                </span>
+
+                <p>
+                    Sombra de textura suave que ayuda a rellenar y definir las cejas de manera uniforme y natural.
+                </p>
+
+                <small>
+                    Diferentes tonos cafe claro, medio y oscuro, con un acabado mate.
+                </small>
+
+                <label>
+                    Cantidad:
+                </label>
+
+                <input
+                    type="number"
+                    min="0"
+                    value="0"
+                    class="cantidad"
+                    data-nombre="Sombra para cejas"
+                    data-precio="45"
+                    onchange="calcularTotal()"
+                >
+
+            </div>
+
+        </div>
+
+        <!-- GEL PARA CEJAS -->
+
+        <div class="producto">
+
+            <div class="foto-producto">
+
+                <img
+                    src="gel para gel.jpeg"
+                    alt="Gel para cejas"
+                >
+
+            </div>
+
+
+         <div class="info-producto">
+
+                <h3>Gel para cejas</h3>
+
+                <span class="precio">
+                    Bs. 40
+                </span>
+
+                <p>
+                    Gel ligero que peina, foja i mantiene las cejas en su lugar, logrando un aspecto definido duranten el dia.
+                </p>
+
+                <small>
+                    Diferentes tonos transparente y cafe, con un acabado natural.
+                </small>
+
+                <label>
+                    Cantidad:
+                </label>
+
+                <input
+                    type="number"
+                    min="0"
+                    value="0"
+                    class="cantidad"
+                    data-nombre="Del para cejas"
+                    data-precio="40"
+                    onchange="calcularTotal()"
+                >
+
+            </div>
+
+        </div>
+
+                <!-- MASCARA DE PESTAÑAS -->
+
+        <div class="producto">
+
+            <div class="foto-producto">
+
+                <img
+                    src="mascara de pestañas.jpeg"
+                    alt=" Mascara de pestañas"
+                >
+
+            </div>
+
+
+         <div class="info-producto">
+
+                <h3>Mascara de pestañas</h3>
+
+                <span class="precio">
+                    Bs. 60
+                </span>
+
+                <p>
+                Mascara de pestañas ideal para alargar, dar volumen y definir las aplicacion sencilla.
+                </p>
+
+                <small>
+                Color: Negro, cafe | Efecto: Volumen y longitud | Tipo : Normal y a prueba de agua.
+                </small>
+
+                <label>
+                    Cantidad:
+                </label>
+
+                <input
+                    type="number"
+                    min="0"
+                    value="0"
+                    class="cantidad"
+                    data-nombre="Mascara de pestañas"
+                    data-precio="60"
+                    onchange="calcularTotal()"
+                >
+
+            </div>
+
+        </div>
+
+         <!-- PESTAÑAS POSTIZAS -->
+
+        <div class="producto">
+
+            <div class="foto-producto">
+
+                <img
+                    src="pestañas.jpeg"
+                    alt=" Pestañas postizas"
+                >
+
+            </div>
+
+
+         <div class="info-producto">
+
+                <h3>Pestañas postizas</h3>
+
+                <span class="precio">
+                    Bs. 55
+                </span>
+
+                <p>
+                Pestañas postizas ligeras que aportan volumen y longuitud, perfectas para realzar la mirada en el maquillaje diario o en ocasiones especiales.
+                </p>
+
+                <small>
+                Estilos: Ntural, volumen y dramatico | Color:Negro | Presentacion: Par completo.
+                </small>
+
+                <label>
+                    Cantidad:
+                </label>
+
+                <input
+                    type="number"
+                    min="0"
+                    value="0"
+                    class="cantidad"
+                    data-nombre="Pestañas postizas"
+                    data-precio="55"
+                    onchange="calcularTotal()"
+                >
+
+            </div>
+
+        </div>
+        
+          <!-- PESTAÑAS POSTIZAS INDIVIDUALES-->
+
+        <div class="producto">
+
+            <div class="foto-producto">
+
+                <img
+                    src="pestañas individuales.jpeg"
+                    alt=" Pestañas postizas individuales"
+                >
+
+            </div>
+
+
+         <div class="info-producto">
+
+                <h3>Pestañas postizas
+                     individuales</h3>
+
+                <span class="precio">
+                    Bs. 60
+                </span>
+
+                <p>
+                    Pestañas individuales faciales de colocar que permiten añadir volumen y longitud en zonas especificas para conseguir una mirada personalizada
+                </p>
+
+                <small>
+                   Estilo: Natural y voluminoso | Longitudes: Cortas, medianas y largas
+                </small>
+
+                <label>
+                    Cantidad:
+                </label>
+
+                <input
+                    type="number"
+                    min="0"
+                    value="0"
+                    class="cantidad"
+                    data-nombre="Pestazas postixas individuales"
+                    data-precio="60"
+                    onchange="calcularTotal()"
+                >
+
+            </div>
+
+        </div>
+
+          <!-- PEGAMENTO PARA PESTAÑAS POSTIZAS -->
+
+        <div class="producto">
+
+            <div class="foto-producto">
+
+                <img
+                    src="pegamento (1).jpeg"
+                    alt=" Pegamento para pestañas postizas "
+                >
+
+            </div>
+
+
+         <div class="info-producto">
+
+                <h3>Pegamento para
+                     pestañas postizas</h3>
+
+                <span class="precio">
+                    Bs. 45
+                </span>
+
+                <p>
+                 Pegamento diseñado para fijar las pestañas postizas de manera segura y comoda, ayudando a mantenerlas en su lugar durante el maquillaje. 
+                </p>
+
+                <small>
+                   Colores: Transparente y negro | Aplicacion: Precisa.
+                </small>
+
+                <label>
+                    Cantidad:
+                </label>
+
+                <input
+                    type="number"
+                    min="0"
+                    value="0"
+                    class="cantidad"
+                    data-nombre="Pegamento para pestañas postizas"
+                    data-precio="45"
+                    onchange="calcularTotal()"
+                >
+
+            </div>
+
+        </div>
+
+           <!-- SPRAY FIJADOR DE MAQUILLAJE-->
+
+        <div class="producto">
+
+            <div class="foto-producto">
+
+                <img
+                    src="praim.jpeg"
+                    alt=" Spray fijador de maquillaje "
+                >
+
+            </div>
+
+
+         <div class="info-producto">
+
+                <h3>Spray fijador 
+                    de maquillaje
+                </h3>
+
+                <span class="precio">
+                    Bs. 95
+                </span>
+
+                <p>
+                  Spray que se aplica al finalizar el maquillaje para ayudar a fijarlo y mantener un acabado bonito durante mas tiempo. 
+                </p>
+
+                <small>
+                   Acabados: Mate, natural y luminoso | Aplicacion: Spray. | Uso: Al finalizar el maquillaje.
+                </small>
+
+                <label>
+                    Cantidad:
+                </label>
+
+                <input
+                    type="number"
+                    min="0"
+                    value="0"
+                    class="cantidad"
+                    data-nombre="Spray fijador de maquillaje"
+                    data-precio="95"
+                    onchange="calcularTotal()"
+                >
+
+            </div>
+
+        </div>
+
+         <!-- BROCHAS PARA MAQUILLAJE-->
+
+        <div class="producto">
+
+            <div class="foto-producto">
+
+                <img
+                    src="brochas.jpeg"
+                    alt=" Brochas para maquillaje "
+                >
+
+            </div>
+
+
+         <div class="info-producto">
+
+                <h3> Brochas para maquillaje</h3>
+
+                <span class="precio">
+                    Bs. 100
+                </span>
+
+                <p>
+                    Brochas suaves y practicas que permiten aplicar, difuminar y distribuir los productos de maquillaje de manera uniforme para lograr un acabado profesional.
+                </p>
+
+                <small>
+                   Tipos: Para base, polvo, rubor y sombras | Materiales: Cerdas suaves. 
+                </small>
+
+                <label>
+                    Cantidad:
+                </label>
+
+                <input
+                    type="number"
+                    min="0"
+                    value="0"
+                    class="cantidad"
+                    data-nombre="Brochas para maquillaje"
+                    data-precio="100"
+                    onchange="calcularTotal()"
+                >
+
+            </div>
+
+        </div>
+
+        <!-- ESPONJAS DE MAQUILLAJE -->
+
+        <div class="producto">
+
+            <div class="foto-producto">
+
+                <img
+                    src="kitt de esponjas.jpeg"
+                    alt=" Esponjas de maquillaje "
+                >
+
+            </div>
+
+
+         <div class="info-producto">
+
+                <h3> Esponjas de maquillaje</h3>
+
+                <span class="precio">
+                    Bs. 45
+                </span>
+
+                <p>
+                    Esponjas suaves, flexibles ideales para aplicar y difuminar bases, correctores y otros productos, logrando un acabado uniforme y natural.
+                </p>
+
+                <small>
+                   Formas: Gota, biselada | Textura: Suave | Uso: Humeda o seca | Presentacion: Individuales o en set.
+                </small>
+
+                <label>
+                    Cantidad:
+                </label>
+
+                <input
+                    type="number"
+                    min="0"
+                    value="0"
+                    class="cantidad"
+                    data-nombre="Esponjas de maquillaje"
+                    data-precio="45"
+                    onchange="calcularTotal()"
+                >
+
+            </div>
+
+        </div>
+
+        <!-- PERFILADORES DE CEJAS -->
+
+        <div class="producto">
+
+            <div class="foto-producto">
+
+                <img
+                    src="perfiladores.jpeg"
+                    alt=" Perfiladores para cejas "
+                >
+
+            </div>
+
+
+         <div class="info-producto">
+
+                <h3> Perfiladores 
+                    para cejas
+                </h3>
+
+                <span class="precio">
+                    Bs. 25
+                </span>
+
+                <p>
+                    Herramientas que permiten definir y dar forma a las cejas con precision, ayudando a conseguir diseño limpio y simetrico.
+                </p>
+
+                <small>
+                   Tipos: Navaja facial y perfilador manual | Uso: Retirar vellos finos.
+                </small>
+
+                <label>
+                    Cantidad:
+                </label>
+
+                <input
+                    type="number"
+                    min="0"
+                    value="0"
+                    class="cantidad"
+                    data-nombre="Perfiladores para cejjas"
+                    data-precio="25"
+                    onchange="calcularTotal()"
+                >
+
+            </div>
+
+        </div>
+
+ <!-- PINZAS PARA CEJAS -->
+
+        <div class="producto">
+
+            <div class="foto-producto">
+
+                <img
+                    src="pinzas (1).jpeg"
+                    alt=" Pinzas para cejas "
+                >
+
+            </div>
+
+
+         <div class="info-producto">
+
+                <h3> Pinzas para cejas</h3>
+
+                <span class="precio">
+                    Bs. 6
+                </span>
+
+                <p>
+                    Pinzas de precision ideales para retirar el vello no deseado y dar forma controlada.
+                </p>
+
+                <small>
+                    Materiales: Acero inoxidable | Colores: Plateado, y negro | Punta: Recta y inclinada
+                </small>
+
+                <label>
+                    Cantidad:
+                </label>
+
+                <input
+                    type="number"
+                    min="0"
+                    value="0"
+                    class="cantidad"
+                    data-nombre="Pinzas para cejas"
+                    data-precio="6"
+                    onchange="calcularTotal()"
+                >
+
+            </div>
+
+        </div>
+         
+         <!-- RIZADOR DE PESTAÑAS -->
+
+        <div class="producto">
+
+            <div class="foto-producto">
+
+                <img
+                    src="Imagen de enchinador.jpeg"
+                    alt="Rizador de pestañas"
+                >
+
+            </div>
+
+
+         <div class="info-producto">
+
+                <h3> Rizador de pestañas</h3>
+
+                <span class="precio">
+                    Bs. 30
+                </span>
+
+                <p>
+                    Rizador de pestñas diseñado para curvar y levantar las pestañas naturales, logrando una mirada mas abierta y definida antes de aplicar la mascara.
+                </p>
+
+                <small>
+                   Material: Matel | Diseño: Ergomico, incluye almohadilla de silicona. 
+                </small>
+
+                <label>
+                    Cantidad:
+                </label>
+
+                <input
+                    type="number"
+                    min="0"
+                    value="0"
+                    class="cantidad"
+                    data-nombre="Rizador de pestañas"
+                    data-precio="30"
+                    onchange="calcularTotal()"
+                >
+
+            </div>
+
+        </div>
+
+       <!-- ESPEJOS -->
+
+        <div class="producto">
+
+            <div class="foto-producto">
+
+                <img
+                    src="espejos.jpeg"
+                    alt="Espejos"
+                >
+
+            </div>
+
+
+         <div class="info-producto">
+
+                <h3> Espejos</h3>
+
+                <span class="precio">
+                    Bs. 35
+                </span>
+
+                <p>
+                    Espejos practicos que permiten observar los detalles del rostro para facilitar la aplicacion del maquillaje y conseguir un acabado prciso.
+                </p>
+
+                <small>
+                   Tipos: De mano, de mesa y plegables | Diseño: Compacto y portatil. 
+                </small>
+
+                <label>
+                    Cantidad:
+                </label>
+
+                <input
+                    type="number"
+                    min="0"
+                    value="0"
+                    class="cantidad"
+                    data-nombre="Espejos"
+                    data-precio="35"
+                    onchange="calcularTotal()"
+                >
+
+            </div>
+
+        </div>
+
+          <!-- NECESERES/COSMETIQUERAS -->
+
+        <div class="producto">
+
+            <div class="foto-producto">
+
+                <img
+                    src="estuche.jpeg"
+                    alt="Neceseres/Cosmetiqueras"
+                >
+
+            </div>
+
+
+         <div class="info-producto">
+
+                <h3> Neceseres/
+                    Cosmetiqueras</h3>
+
+                <span class="precio">
+                    Bs. 35
+                </span>
+
+                <p>
+                    Neceseres practicos y espaciosos que permiten guardar, organizar y transportar productos de maquillaje y cuidado facial de manera comoda.
+                </p>
+
+                <small>
+                   Colores: Varios | Uso; Organizacion de cossmeticos
+                </small>
+
+                <label>
+                    Cantidad:
+                </label>
+
+                <input
+                    type="number"
+                    min="0"
+                    value="0"
+                    class="cantidad"
+                    data-nombre="Neceseres/cosmeticos"
+                    data-precio="35"
+                    onchange="calcularTotal()"
+                >
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <!-- CUIDADO FACIAL -->
+
+     <h3 class="categoria">
+        CUIDADO FACIAL
+    </h3>
+
+    <div class="productos">
+
+
+        <!-- LIMPIADOR -->
+
+        <div class="producto">
+
+            <div class="foto-producto">
+
+                <img
+                    src="WhatsApp Image 2026-09-29 at 16.41.57.jpeg"
+                    alt="Limpiador facial"
+                >
+
+            </div>
+
+            <div class="info-producto">
+
+                <h3>Limpiador facial</h3>
+
+                <span class="precio">
+                    Bs. 80
+                </span>
+
+                <p>
+                    Ayuda a eliminar suciedad
+                    y residuos de la piel.
+                </p>
+
+                <small>
+                    Para complementar la limpieza.
+                </small>
+
+                <label>
+                    Cantidad:
+                </label>
+
+                <input
+                    type="number"
+                    min="0"
+                    value="0"
+                    class="cantidad"
+                    data-nombre="Limpiador facial"
+                    data-precio="80"
+                    onchange="calcularTotal()"
+                >
+
+            </div>
+
+        </div>
+
+                <!-- AGUA MICELAR -->
+
+        <div class="producto">
+
+            <div class="foto-producto">
+
+                <img
+                    src="agua micelar.jpeg"
+                    alt="Agua micelar"
+                >
+
+            </div>
+
+            <div class="info-producto">
+
+                <h3>Agua micelar</h3>
+
+                <span class="precio">
+                    Bs. 96
+                </span>
+
+                <p>
+                    Agua micelar ideal para eliminar restos de maquillaje, suciedad e impurezas, dejando la piel limpia y fresca.
+                </p>
+
+                <small>
+                    Tipo: Liquido | Uso: Limpieza y desmaquillado. 
+                </small>
+
+                <label>
+                    Cantidad:
+                </label>
+
+                <input
+                    type="number"
+                    min="0"
+                    value="0"
+                    class="cantidad"
+                    data-nombre="Agua micelar"
+                    data-precio="96"
+                    onchange="calcularTotal()"
+                >
+
+            </div>
+
+        </div>
+
+ <!-- GEL LIMPIADOR FACIAL -->
+
+        <div class="producto">
+
+            <div class="foto-producto">
+
+                <img
+                    src="gel limpiador facial.jpeg"
+                    alt="Gel limpiador facial"
+                >
+
+            </div>
+
+            <div class="info-producto">
+
+                <h3>Gel limpiador facial</h3>
+
+                <span class="precio">
+                    Bs. 108
+                </span>
+
+                <p>
+                    Gel limpiador facial que ayuda a retirar el exceso de grasa, las impurezas y los residuos acumulados en la piel.
+                </p>
+
+                <small>
+                    Textura: Gel | Tipo de piel: Segun la formula | Uso: Limpieza diaria. 
+                </small>
+
+                <label>
+                    Cantidad:
+                </label>
+
+                <input
+                    type="number"
+                    min="0"
+                    value="0"
+                    class="cantidad"
+                    data-nombre="Gel limpiador facial"
+                    data-precio="108"
+                    onchange="calcularTotal()"
+                >
+
+            </div>
+
+        </div>
+
+         <!-- ESPUMA LIMPIADORA FACIAL -->
+
+        <div class="producto">
+
+            <div class="foto-producto">
+
+                <img
+                    src="espuma limpiadora (1).jpeg"
+                    alt="Espuma limpiadora facial"
+                >
+
+            </div>
+
+            <div class="info-producto">
+
+                <h3>Espuma limpiadora facial</h3>
+
+                <span class="precio">
+                    Bs. 125
+                </span>
+
+                <p>
+                    Espuma facial de textura ligera que ayuda a limpiar la piel y eliminar impurezas, dejando una sensacion fresca y suave.
+                </p>
+
+                <small>
+                    Textura: Espuma | Uso: Limpieza facial.
+                </small>
+
+                <label>
+                    Cantidad:
+                </label>
+
+                <input
+                    type="number"
+                    min="0"
+                    value="0"
+                    class="cantidad"
+                    data-nombre="Espuma limpiadora facial"
+                    data-precio="125"
+                    onchange="calcularTotal()"
+                >
+
+            </div>
+
+        </div>
+
+         <!-- BALSAMO DESMAQUILLANTE -->
+
+        <div class="producto">
+
+            <div class="foto-producto">
+
+                <img
+                    src="balsamo desmaquillante.jpeg"
+                    alt="Balsamo desmaquillante"
+                >
+
+            </div>
+
+            <div class="info-producto">
+
+                <h3>Balsamo desmaquillante</h3>
+
+                <span class="precio">
+                    Bs. 225
+                </span>
+
+                <p>
+                    Balsamo limpiador que se transforma al masajearlo para ayudar a disolverse el maquillaje, el protector solar y las impurezas del rostro.
+                </p>
+
+                <small>
+                    Textura: Balsamo | Uso: Desmaquillado | Aplicacion: Sobre la piel seca.
+                </small>
+
+                <label>
+                    Cantidad:
+                </label>
+
+                <input
+                    type="number"
+                    min="0"
+                    value="0"
+                    class="cantidad"
+                    data-nombre="Balsamo desmaquillante"
+                    data-precio="225"
+                    onchange="calcularTotal()"
+                >
+
+            </div>
+
+        </div>
+
+        <!-- ACEITE LIMPIADOR FACIAL-->
+
+        <div class="producto">
+
+            <div class="foto-producto">
+
+                <img
+                    src="aceite limpiador.jpeg"
+                    alt="Aceite limpiador faciaql"
+                >
+
+            </div>
+
+            <div class="info-producto">
+
+                <h3>Aceite limpiador facial</h3>
+
+                <span class="precio">
+                    Bs. 180
+                </span>
+
+                <p>
+                    Aceite limpiador que ayuda a disolver el maquillaje, el protector solar y el exceso de grasa, facilitandon su eliminacion durante la limpieza facial.
+                </p>
+
+                <small>
+                    Textura: Aceite | Uso: Desmaquillado | Aplicacion: Sobre la piel seca.
+                </small>
+
+                <label>
+                    Cantidad:
+                </label>
+
+                <input
+                    type="number"
+                    min="0"
+                    value="0"
+                    class="cantidad"
+                    data-nombre="Aceite limpiador facial"
+                    data-precio="180"
+                    onchange="calcularTotal()"
+                >
+
+            </div>
+
+        </div>
+
+        <!-- EXFOLIANTE FACIAL-->
+
+        <div class="producto">
+
+            <div class="foto-producto">
+
+                <img
+                    src="exfoliante facial.jpeg"
+                    alt="Exfiliante facial"
+                >
+
+            </div>
+
+            <div class="info-producto">
+
+                <h3>Exfoliante facial</h3>
+
+                <span class="precio">
+                    Bs. 92
+                </span>
+
+                <p>
+                    Exfoliante facial que ayuda a retirar las celulas de la superficie de la piel, dejandola mas suave y con una apariencia renovada .
+                </p>
+
+                <small>
+                    Tipos: Crema, gel o particulas exfoliantes | Uso: Segun las indicaciones del producto.
+                </small>
+
+                <label>
+                    Cantidad:
+                </label>
+
+                <input
+                    type="number"
+                    min="0"
+                    value="0"
+                    class="cantidad"
+                    data-nombre="Exfoliante facial"
+                    data-precio="92"
+                    onchange="calcularTotal()"
+                >
+
+            </div>
+
+        </div>
+
+        <!-- CREMA -->
+
+        <div class="producto">
+
+            <div class="foto-producto">
+
+                <img
+                    src="WhatsApp Image 2026-09-29 at 17.40.22 (1).jpeg"
+                    alt="Crema hidratante"
+                >
+
+            </div>
+
+            <div class="info-producto">
+
+                <h3>Crema hidratante</h3>
+
+                <span class="precio">
+                    Bs. 85
+                </span>
+
+                <p>
+                    Ayuda a mantener la piel hidratada.
+                </p>
+
+                <small>
+                    Para complementar la hidratación.
+                </small>
+
+                <label>
+                    Cantidad:
+                </label>
+
+                <input
+                    type="number"
+                    min="0"
+                    value="0"
+                    class="cantidad"
+                    data-nombre="Crema hidratante"
+                    data-precio="85"
+                    onchange="calcularTotal()"
+                >
+
+            </div>
+
+        </div>
+
+
+        <!-- SERUM -->
+
+        <div class="producto">
+
+            <div class="foto-producto">
+
+                <img
+                    src="WhatsApp Image 2026-09-29 at 16.41.57 (1).jpeg"
+                    alt="Sérum facial"
+                >
+
+            </div>
+
+            <div class="info-producto">
+
+                <h3>Sérum</h3>
+
+                <span class="precio">
+                    Bs. 125
+                </span>
+
+                <p>
+                    Producto destinado a complementar
+                    el cuidado de la piel.
+                </p>
+
+                <small>
+                    Para complementar la rutina facial.
+                </small>
+
+                <label>
+                    Cantidad:
+                </label>
+
+                <input
+                    type="number"
+                    min="0"
+                    value="0"
+                    class="cantidad"
+                    data-nombre="Sérum"
+                    data-precio="125"
+                    onchange="calcularTotal()"
+                >
+
+            </div>
+
+        </div>
+
+ <!-- SERUM  VITAMINA C-->
+
+        <div class="producto">
+
+            <div class="foto-producto">
+
+                <img
+                    src="vitamina c (1).jpeg"
+                    alt="Serum vitamina C"
+                >
+
+            </div>
+
+            <div class="info-producto">
+
+            <h3>Sérum vitamina C</h3>
+
+                <span class="precio">
+                    Bs. 95
+                </span>
+
+                <p>
+                    Serum facial con vitamina C que ayuda a mejorar la luminosidad de la piel y a darle una apariencia mas uniforme y radiante.
+                </p>
+
+                <small>
+                    Ingrediente: Vitamina C | Textura: Ligera | Uso: Rutina facial.
+                </small>
+
+                <label>
+                    Cantidad:
+                </label>
+
+                <input
+                    type="number"
+                    min="0"
+                    value="0"
+                    class="cantidad"
+                    data-nombre="Sérum vitamina C"
+                    data-precio="95"
+                    onchange="calcularTotal()"
+                >
+
+            </div>
+
+        </div>
+
+
+        <!-- SERUM  ANTIACNE-->
+
+        <div class="producto">
+
+            <div class="foto-producto">
+
+                <img
+                    src="acne.jpeg"
+                    alt="Serum antiacne"
+                >
+
+            </div>
+
+            <div class="info-producto">
+
+            <h3>Serum antiacne</h3>
+
+                <span class="precio">
+                    Bs. 180
+                </span>
+
+                <p>
+                    Serum facial formulado para ayudar a controlar el exceso de grasa y mejorar la apariencia de las imperfecciones, manteniendo la piel con un aspecto mas uniforme.
+                </p>
+
+                <small>
+                    Ingrediente: Niacinamida o acido salicilico, segun la formula | Textura: Ligera
+                </small>
+
+                <label>
+                    Cantidad:
+                </label>
+
+                <input
+                    type="number"
+                    min="0"
+                    value="0"
+                    class="cantidad"
+                    data-nombre="Sérum antiacne"
+                    data-precio="180"
+                    onchange="calcularTotal()"
+                >
+
+            </div>
+
+        </div>
+
+ <!-- CEPILLO LIMPIADOR FACIAL -->
+
+        <div class="producto">
+
+            <div class="foto-producto">
+
+                <img
+                    src="cepillo (1).jpeg"
+                    alt="Cepillo limpiador facial"
+                >
+
+            </div>
+
+            <div class="info-producto">
+
+            <h3>Cepillo limpiador facial </h3>
+
+                <span class="precio">
+                    Bs. 55
+                </span>
+
+                <p>
+                 Cepillo facial diseñado para ayudar a limpiar la piel y retirar los residuos e impurezas acumulados en el rostro.   .
+                </p>
+
+                <small>
+                  Material: Silicona o cerdas suaves | Diseño: Manual o electrico | Uso: Limpieza facial  
+                </small>
+
+                <label>
+                    Cantidad:
+                </label>
+
+                <input
+                    type="number"
+                    min="0"
+                    value="0"
+                    class="cantidad"
+                    data-nombre="Cepillo limpiador facial"
+                    data-precio="55"
+                    onchange="calcularTotal()"
+                >
+
+            </div>
+
+        </div>
+
+         <!-- RODILLO FACIAL -->
+
+        <div class="producto">
+
+            <div class="foto-producto">
+
+                <img
+                    src="rodillo.jpeg"
+                    alt="Rodillo facial"
+                >
+
+            </div>
+
+            <div class="info-producto">
+
+            <h3>Rodillo facial </h3>
+
+                <span class="precio">
+                    Bs. 55
+                </span>
+
+                <p>
+                 Rodillo facial que permite masajear suavemente el rosotro y proporciona una sensacion refrescante durante la rutina de cuidado facial.
+                </p>
+
+                <small>
+                  Material: Piedra natural o material sintetico | Tipos: Rodillo simple o doble | Uso: Masaje facial 
+                </small>
+
+                <label>
+                    Cantidad:
+                </label>
+
+                <input
+                    type="number"
+                    min="0"
+                    value="0"
+                    class="cantidad"
+                    data-nombre="Rodillo facial"
+                    data-precio="55"
+                    onchange="calcularTotal()"
+                >
+
+            </div>
+
+        </div>
+
+         <!-- BALSAMO LABIAL -->
+
+        <div class="producto">
+
+            <div class="foto-producto">
+
+                <img
+                    src="balsamo de labios.jpeg"
+                    alt="Balsamo labial"
+                >
+
+            </div>
+
+            <div class="info-producto">
+
+            <h3>Balsamo facial </h3>
+
+                <span class="precio">
+                    Bs. 25
+                </span>
+
+                <p>
+                Balsamo labial hidratante que ayuda a suavizar, proteger y mantener los labios humectados, evitando la sensacion de resequedad.
+                </p>
+
+                <small>
+                  Textura: Suave y cremosa | Acabado: Natural o brillante | Presengtacion: Barra o tarro
+                </small>
+
+                <label>
+                    Cantidad:
+                </label>
+
+                <input
+                    type="number"
+                    min="0"
+                    value="0"
+                    class="cantidad"
+                    data-nombre="Balsamo labial"
+                    data-precio="25"
+                    onchange="calcularTotal()"
+                >
+
+            </div>
+
+        </div>
+
+             <!-- EXFOLIANTE DE LABIOS -->
+
+        <div class="producto">
+
+            <div class="foto-producto">
+
+                <img
+                    src="exfoliante de labios.jpeg"
+                    alt="Exfoliante de labios"
+                >
+
+            </div>
+
+            <div class="info-producto">
+
+            <h3>Balsamo facial </h3>
+
+                <span class="precio">
+                    Bs. 25
+                </span>
+
+                <p>
+                Exfoliante labial que ayuda a retirar las pielecitas secas, dejando los labios mas suaves y lisos.
+                </p>
+
+                <small>
+                  Textura: Cremosa o granulada | Ingredientes: Azucafr o particulas exfoliantes, segun la formula | Uso: Cuidado de labios
+                </small>
+
+                <label>
+                    Cantidad:
+                </label>
+
+                <input
+                    type="number"
+                    min="0"
+                    value="0"
+                    class="cantidad"
+                    data-nombre="Sérum"
+                    data-precio="25"
+                    onchange="calcularTotal()"
+                >
+
+            </div>
+
+        </div>
+
+        <!-- MASCARILLA PARA LABIOS  -->
+
+        <div class="producto">
+
+            <div class="foto-producto">
+
+                <img
+                    src="mascarilla para labios.jpeg"
+                    alt="Mascarilla para labios"
+                >
+
+            </div>
+
+            <div class="info-producto">
+
+            <h3> Mascarilla para labios </h3>
+
+                <span class="precio">
+                    Bs. 35
+                </span>
+
+                <p>
+                Mascarilla labial nutritiva que ayuda a hidratar intensamente los labios secos, suavizar su textura y saludable.
+                </p>
+
+                <small>
+                    Textura: Gel o balsamo | Uso: Hidratacion intensiva | Aplicacion: Durante la noche o segun las indicaciones
+                </small>
+
+                <label>
+                    Cantidad:
+                </label>
+
+                <input
+                    type="number"
+                    min="0"
+                    value="0"
+                    class="cantidad"
+                    data-nombre="Mascarilla para labios"
+                    data-precio="35"
+                    onchange="calcularTotal()"
+                >
+
+            </div>
+
+        </div>
+
+        <!-- MASCARILLA -->
+
+        <div class="producto">
+
+            <div class="foto-producto">
+
+                <img
+                    src="WhatsApp Image 2026-09-29 at 16.41.57 (2).jpeg"
+                    alt="Mascarilla facial"
+                >
+
+            </div>
+
+            <div class="info-producto">
+
+                <h3>Mascarilla</h3>
+
+                <span class="precio">
+                    Bs. 25
+                </span>
+
+                <p>
+                    Para complementar la rutina
+                    de cuidado facial.
+                </p>
+
+                <small>
+                    Diferentes opciones de cuidado.
+                </small>
+
+                <label>
+                    Cantidad:
+                </label>
+
+                <input
+                    type="number"
+                    min="0"
+                    value="0"
+                    class="cantidad"
+                    data-nombre="Mascarilla"
+                    data-precio="25"
+                    onchange="calcularTotal()"
+                >
+
+            </div>
+
+        </div>
+            
+    </div>
+
+</section>
+
+
+<!-- RESUMEN DE COMPRA -->
+
+<section id="pedido" class="resumen">
+
+    <div class="resumen-contenido">
+
+        <span>
+            TU SELECCIÓN
+        </span>
+
+        <h2>
+            ¿LISTA PARA HACER TU PEDIDO?
+        </h2>
+
+        <p>
+            Selecciona las cantidades de los productos
+            que deseas comprar.
+        </p>
+
+
+        <div id="resumen-productos">
+
+            <p>
+                Aún no seleccionaste ningún producto.
+            </p>
+
+        </div>
+
+
+        <div class="total">
+
+            <span>
+                TOTAL:
+            </span>
+
+            <strong id="total">
+                Bs. 0
+            </strong>
+
+        </div>
+
+
+        <div class="datos-pedido">
+
+            <h3>
+                DATOS DEL PEDIDO
+            </h3>
+
+            <input
+                type="text"
+                id="nombrePedido"
+                placeholder="Tu nombre completo"
+            >
+
+            <input
+                type="tel"
+                id="numeroPedido"
+                placeholder="Tu número de WhatsApp"
+            >
+
+            <input
+                type="text"
+                id="lugarPedido"
+                placeholder="Lugar de entrega"
+            >
+
+        </div>
+
+
+        <button
+            class="boton-whatsapp"
+            onclick="realizarPedido()"
+        >
+            REALIZAR PEDIDO POR WHATSAPP
+        </button>
+
+    </div>
+
+</section>
+
+
+<!-- PROMOCIONES -->
+
+<section id="promociones" class="seccion promociones">
+
+    <div class="titulo-seccion">
+
+        <span>
+            OFERTAS ESPECIALES
+        </span>
+
+        <h2>
+            PROMOCIONES ESPECIALES
+        </h2>
+
+    </div>
+
+
+    <div class="promos">
+
+
+        <div class="promo">
+
+            <h3>
+                COMBO GLOW
+            </h3>
+
+            <p>
+                Base + polvo + labial +
+                máscara de pestañas.
+            </p>
+
+            <strong>
+                Bs. 95
+            </strong>
+
+        </div>
+
+
+        <div class="promo">
+
+            <h3>
+                GLOW KIT FACIAL
+            </h3>
+
+            <p>
+                Limpiador + crema hidratante +
+                sérum + mascarilla.
+            </p>
+
+            <strong>
+                Bs. 110
+            </strong>
+
+        </div>
+
+
+        <div class="promo">
+
+            <h3>
+                KIT MAKEUP COMPLETO
+            </h3>
+
+            <p>
+                Base + polvo + sombra +
+                labial + máscara.
+            </p>
+
+            <strong>
+                Bs. 130
+            </strong>
+
+        </div>
+
+
+        <div class="promo">
+
+            <h3>
+                KIT CUIDADO DIARIO
+            </h3>
+
+            <p>
+                Limpiador + crema +
+                protector solar.
+            </p>
+
+            <strong>
+                Bs. 90
+            </strong>
+
+        </div>
+
+
+        <div class="promo">
+
+            <h3>
+                KIT LABIOS GLOW
+            </h3>
+
+            <p>
+                2 labiales + gloss +
+                delineador.
+            </p>
+
+            <strong>
+                Bs. 60
+            </strong>
+
+        </div>
+
+
+        <div class="promo">
+
+            <h3>
+                KIT MIRADA PERFECTA
+            </h3>
+
+            <p>
+                Paleta de sombras +
+                máscara + delineador.
+            </p>
+
+            <strong>
+                Bs. 75
+            </strong>
+
+        </div>
+
+
+        <div class="promo">
+
+            <h3>
+                MINI KIT BEAUTY
+            </h3>
+
+            <p>
+                Labial + máscara + gloss.
+            </p>
+
+            <strong>
+                Bs. 50
+            </strong>
+
+        </div>
+
+
+        <div class="promo">
+
+            <h3>
+                KIT SELF-CARE
+            </h3>
+
+            <p>
+                Mascarilla + sérum +
+                crema hidratante + bálsamo.
+            </p>
+
+            <strong>
+                Bs. 85
+            </strong>
+
+        </div>
+
+    </div>
+
+
+    <!-- PROMOCIONES POR FECHAS -->
+
+    <div class="fechas">
+
+        <h2>
+            PROMOCIONES POR FECHAS ESPECIALES
+        </h2>
+
+
+        <div class="fechas-grid">
+
+            <div>
+                <strong>Día de la Mujer</strong>
+                <p>
+                    Descuentos y combos especiales.
+                </p>
+            </div>
+
+
+            <div>
+                <strong>Día de la Madre</strong>
+                <p>
+                    Kits especiales para regalar.
+                </p>
+            </div>
+
+
+            <div>
+                <strong>Día del Estudiante</strong>
+                <p>
+                    Promociones en productos seleccionados.
+                </p>
+            </div>
+
+
+            <div>
+                <strong>San Valentín</strong>
+                <p>
+                    Combos de belleza y opciones para regalar.
+                </p>
+            </div>
+
+
+            <div>
+                <strong>Navidad</strong>
+                <p>
+                    Kits navideños y promociones especiales.
+                </p>
+            </div>
+
+
+            <div>
+                <strong>Aniversario DEYMI ED GLOW</strong>
+                <p>
+                    Sorteos y promociones especiales.
+                </p>
+            </div>
+
+
+            <div>
+                <strong>Ofertas de temporada</strong>
+                <p>
+                    Descuentos por tiempo limitado.
+                </p>
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- CONTACTO -->
+
+<section id="contacto" class="contacto">
+
+    <div class="contacto-contenido">
+
+
+        <div class="titulo-seccion">
+
+            <span>
+                ESTAMOS PARA AYUDARTE
+            </span>
+
+            <h2>
+                CONTÁCTANOS
+            </h2>
+
+            <p>
+                ¿Tienes alguna pregunta?
+                Déjanos tus datos y cuéntanos
+                qué deseas saber.
+            </p>
+
+        </div>
+
+
+        <form
+            class="formulario-contacto"
+            onsubmit="enviarMensaje(event)"
+        >
+
+
+            <div class="campo">
+
+                <label>
+                    Nombre completo:
+                </label>
+
+                <input
+                    type="text"
+                    id="nombreContacto"
+                    placeholder="Escribe tu nombre"
+                    required
+                >
+
+            </div>
+
+
+            <div class="campo">
+
+                <label>
+                    Correo electrónico:
+                </label>
+
+                <input
+                    type="email"
+                    id="correoContacto"
+                    placeholder="ejemplo@gmail.com"
+                    required
+                >
+
+            </div>
+
+
+            <div class="campo">
+
+                <label>
+                    ¿Sobre qué deseas consultar?
+                </label>
+
+                <select
+                    id="opcionContacto"
+                    required
+                >
+
+                    <option value="">
+                        Selecciona una opción
+                    </option>
+
+                    <option>
+                        Información sobre productos
+                    </option>
+
+                    <option>
+                        Consultar precios
+                    </option>
+
+                    <option>
+                        Disponibilidad de productos
+                    </option>
+
+                    <option>
+                        Realizar un pedido
+                    </option>
+
+                    <option>
+                        Formas de pago
+                    </option>
+
+                    <option>
+                        Otro
+                    </option>
+
+                </select>
+
+            </div>
+
+
+            <div class="campo">
+
+                <label>
+                    Mensaje:
+                </label>
+
+                <textarea
+                    id="mensajeContacto"
+                    rows="7"
+                    placeholder="Escribe aquí tu mensaje..."
+                    required
+                ></textarea>
+
+            </div>
+
+
+            <button
+                type="submit"
+                class="boton-enviar"
+            >
+                ENVIAR MENSAJE
+            </button>
+
+        </form>
+
+
+        <!-- DATOS DE CONTACTO -->
+
+        <div class="datos-contacto">
+
+            <h3>
+                También puedes encontrarnos
+            </h3>
+
+
+            <div class="contacto-item">
+
+                <div>
+
+                    <strong>
+                        WhatsApp
+                    </strong>
+
+                    <a
+                        href="https://wa.me/59174446418"
+                        target="_blank"
+                    >
+                        74446418
+                    </a>
+
+                </div>
+
+            </div>
+
+
+            <div class="contacto-item">
+
+                <div>
+
+                    <strong>
+                        Instagram
+                    </strong>
+
+                    <a
+                        href="https://www.instagram.com/deymi.cosmeticos"
+                        target="_blank"
+                    >
+                        @deymi.cosmeticos
+                    </a>
+
+                </div>
+
+            </div>
+
+
+            <div class="contacto-item">
+
+                <div>
+
+                    <strong>
+                        Correo electrónico
+                    </strong>
+
+                    <a
+                        href="mailto:deymi.cosmeticos@gmail.com"
+                    >
+                        deymi.cosmeticos@gmail.com
+                    </a>
+
+                </div>
+
+            </div>
+
+
+            <div class="contacto-item">
+
+                <div>
+
+                    <strong>
+                        Ubicación
+                    </strong>
+
+                    <p>
+                        Sopachuy, Chuquisaca - Bolivia
+                    </p>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- FINAL -->
+
+<footer>
+
+    <div class="footer-logo">
+        DEYMI ED GLOW
+    </div>
+
+    <p class="frase-final">
+        "Brilla con tu propia esencia."
+    </p>
+
+    <p>
+        Gracias por visitar nuestra tienda.
+    </p>
+
+
+    <div class="footer-redes">
+
+        <a
+            href="https://wa.me/59174446418"
+            target="_blank"
+        >
+            WhatsApp
+        </a>
+
+        <a
+            href="https://www.instagram.com/deymi.cosmeticos"
+            target="_blank"
+        >
+            Instagram
+        </a>
+
+    </div>
+
+
+    <p class="copyright">
+        © 2026 DEYMI ED GLOW
+    </p>
+
+</footer>
+
+
+<script src="script.js"></script>
+
+</body>
+
+</html>
